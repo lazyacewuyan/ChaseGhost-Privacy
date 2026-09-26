@@ -20,12 +20,9 @@ rg -n "資料控制者法定姓名|公開聯絡信箱|LEGAL NAME|PUBLIC CONTACT|
 
 ## GitHub Pages 部署
 
-專案已包含 `.github/workflows/privacy-policy-pages.yml`。將變更推送至 GitHub 的 `main` 或 `master` 分支後：
+由於主要遊戲 repository 是私人專案，隱私政策已獨立發布至公開 repository：
 
-1. 開啟 GitHub repository 的 **Settings → Pages**。
-2. 在 **Build and deployment → Source** 選擇 **GitHub Actions**。
-3. 到 **Actions** 查看 `Deploy ChaseGhost privacy policy` 是否成功。
-4. 頁面網址通常為 `https://lazyacewuyan.github.io/MR_GhostChase/`。
-5. 使用無痕視窗及手機網路測試網址，確認不需登入即可開啟，再貼到 Meta 的「隱私政策網址」。
+- Repository：`https://github.com/lazyacewuyan/ChaseGhost-Privacy`
+- 公開政策：`https://lazyacewuyan.github.io/ChaseGhost-Privacy/`
 
-如果 repository 是 private，請確認目前 GitHub 方案允許 private repository 使用 Pages，或改用公開 repository／其他 HTTPS 靜態網站服務。
+更新本資料夾的政策後，需要把 `PrivacyPolicy` 的內容同步至上述公開 repository 的 `main` 分支。送交 Meta 前，請再以無痕視窗或手機網路確認公開政策網址不需登入即可開啟。
